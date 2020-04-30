@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/universe_2"
+    android:id="@+id/pop_up">
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:id="@+id/text_enable"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="70dp"
+        android:text="Enable Tutorial"
+        android:textColor="@android:color/white" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        app:errorEnabled="true"
+        android:textColorHint="@android:color/white">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IP-Adresse (without http://)"
+            android:inputType=""
+            android:id="@+id/edit_text"
+            android:textColor="@android:color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/roundedbutton"
+        android:onClick="confirmInput"
+        android:text="Confirm" />
+
+    <Button
+        android:id="@+id/button_manuell"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Manuell position" />
+
+    <Button
+        android:id="@+id/button_giro"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Giro position" />
+</RelativeLayout>

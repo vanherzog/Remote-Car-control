@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+    </WebView>
+
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="217dp"
+        android:src="@drawable/arrow_up" />
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="267dp"
+        android:src="@drawable/arrow_down" />
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="67dp"
+        android:src="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="68dp"
+        android:src="@drawable/arrow_left" />
+
+    <Switch
+        android:id="@+id/hard_soft"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="hard"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/black"/>
+
+
+
+
+
+
+</RelativeLayout>

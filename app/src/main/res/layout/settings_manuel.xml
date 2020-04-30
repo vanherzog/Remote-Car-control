@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_root">
+
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="58dp"
+        android:src="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="66dp"
+        android:src="@drawable/arrow_left" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="40dp"
+        android:text="Save" />
+
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="157dp"
+        android:layout_height="220dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="495dp"
+        android:layout_marginBottom="39dp">
+
+        <ImageView
+            android:id="@+id/arrow_up"
+            android:layout_width="64dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/arrow_up" />
+
+        <ImageView
+            android:id="@+id/arrow_down"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="170dp"
+            android:src="@drawable/arrow_down" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/guii">
+
+
+        <ImageView
+            android:id="@+id/arrow_up"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="226dp"
+            android:layout_marginBottom="120dp"
+            android:src="@drawable/arrow_up" />
+
+        <ImageView
+            android:id="@+id/arrow_down"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="224dp"
+            android:layout_marginBottom="52dp"
+            android:src="@drawable/arrow_down" />
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="96dp"
+            android:text="save" />
+
+
+</RelativeLayout>

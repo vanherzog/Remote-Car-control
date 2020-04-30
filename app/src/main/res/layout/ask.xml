@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/popup_ask"
+    android:id="@+id/pop_up2">
+
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Do you want to see the Tutorial again?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/dont_show_again"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:text="No"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/show_again"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="38dp"
+        android:text="Yes"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
